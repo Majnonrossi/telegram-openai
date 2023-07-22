@@ -15,4 +15,4 @@ RUN npm install qrcode-terminal
 
 COPY . .
 
-CMD ["node", "index.js"]
+CMD ["node", "."]
