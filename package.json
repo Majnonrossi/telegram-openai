@@ -1,13 +1,16 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "bot",
   "main": "index.js",
   "scripts": {
         "start": "node index.js",
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "ai"
+  ],
+  "author": "darkman",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
