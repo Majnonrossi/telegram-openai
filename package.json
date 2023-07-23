@@ -1,16 +1,13 @@
 {
-  "name": "nodejs",
+  "name": "darkman",
   "version": "1.0.0",
-  "description": "bot",
+  "description": "",
   "main": "index.js",
   "scripts": {
-        "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "api",
-    "ai"
-  ],
-  "author": "darkman",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
