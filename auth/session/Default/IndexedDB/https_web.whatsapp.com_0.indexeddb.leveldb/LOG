@@ -1,7 +1,0 @@
-2023/07/23-12:43:01.640 3bbc Creating DB C:\Users\Dark Man747\Desktop\ReynaBOT\auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2023/07/23-12:43:01.829 3bbc Reusing MANIFEST C:\Users\Dark Man747\Desktop\ReynaBOT\auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/23-12:43:02.511 3b8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/07/23-12:43:05.491 3b8 Level-0 table #5: started
-2023/07/23-12:43:05.686 3b8 Level-0 table #5: 30118 bytes OK
-2023/07/23-12:43:05.900 3b8 Delete type=0 #3
-2023/07/23-12:43:05.901 3bbc Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
