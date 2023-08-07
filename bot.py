@@ -13,7 +13,8 @@ bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     user_text = message.text
+    print('Msg: ' + user_text)
     chatgpt_response = get_chatgpt_response(user_text)
-    bot.send_message(message.chat.id, chatgpt_response)
+    bot.send_message(message.chat.id, chatgpt_response + '\n\n- D𝐞𝐯 >> 𝐝𝐚𝐫𝐤 𝐦𝐚𝐧\n- @darkman_fit')
 
 bot.polling()
