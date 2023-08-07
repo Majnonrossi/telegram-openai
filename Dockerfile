@@ -1,18 +1,9 @@
-FROM node:lts-buster
+FROM python:3.10
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+COPY . /app
 
-COPY package.json .
+WORKDIR /app
 
-RUN npm install
-RUN npm install qrcode-terminal
+RUN pip install telebot requests
 
-COPY . .
-
-CMD ["node", "."]
+CMD ["python", "telebot.py"]
