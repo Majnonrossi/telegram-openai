@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN pip install telebot requests
 
-CMD ["python", "telebot.py"]
+CMD ["python", "bot.py"]
