@@ -16,9 +16,4 @@ def handle_message(message):
     chatgpt_response = get_chatgpt_response(user_text)
     bot.send_message(message.chat.id, chatgpt_response)
 
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(message.chat.id, "مرحبًا! أنا بوت ChatGPT. ارسل لي أي شيء وسأجيب لك!")
-
-
 bot.polling()
