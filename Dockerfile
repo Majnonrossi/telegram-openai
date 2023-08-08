@@ -4,6 +4,6 @@ COPY . /app
 
 WORKDIR /app
 
-RUN pip install telebot requests
+RUN pip install telebot requests threading
 
 CMD ["python", "bot.py"]
