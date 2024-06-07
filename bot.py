@@ -2,7 +2,7 @@ import requests
 import telebot
 import threading
 
-TELEGRAM_BOT_TOKEN = '6630514763:AAEllHZ6H_etDV6OaLMFHF0vU5iolJeBiNY'
+TELEGRAM_BOT_TOKEN = '7308033128:AAFH68RcE0plJTVGAyYZVwUy9dKCGDWJqek'
 
 def get_chatgpt_response(text):
     CHATGPT_API_URL = f'https://botz-openai-prod-botz-chatgpt-s78su6.mo1.mogenius.io/chatgpt?text={text}'
